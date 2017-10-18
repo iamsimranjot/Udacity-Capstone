@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  MatchesViewController.swift
 //  CricLove
 //
 //  Created by SimranJot Singh on 18/10/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class MatchesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

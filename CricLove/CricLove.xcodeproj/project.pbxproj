@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		70AC93821F9788AA005D8337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC93811F9788AA005D8337 /* AppDelegate.swift */; };
-		70AC93841F9788AA005D8337 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC93831F9788AA005D8337 /* FirstViewController.swift */; };
-		70AC93861F9788AA005D8337 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC93851F9788AA005D8337 /* SecondViewController.swift */; };
+		70AC93841F9788AA005D8337 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC93831F9788AA005D8337 /* MatchesViewController.swift */; };
+		70AC93861F9788AA005D8337 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AC93851F9788AA005D8337 /* SearchViewController.swift */; };
 		70AC93891F9788AA005D8337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AC93871F9788AA005D8337 /* Main.storyboard */; };
 		70AC938B1F9788AA005D8337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AC938A1F9788AA005D8337 /* Assets.xcassets */; };
 		70AC938E1F9788AA005D8337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AC938C1F9788AA005D8337 /* LaunchScreen.storyboard */; };
@@ -18,8 +18,8 @@
 /* Begin PBXFileReference section */
 		70AC937E1F9788AA005D8337 /* CricLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70AC93811F9788AA005D8337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70AC93831F9788AA005D8337 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		70AC93851F9788AA005D8337 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		70AC93831F9788AA005D8337 /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		70AC93851F9788AA005D8337 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		70AC93881F9788AA005D8337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70AC938A1F9788AA005D8337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AC938D1F9788AA005D8337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,8 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				70AC93811F9788AA005D8337 /* AppDelegate.swift */,
-				70AC93831F9788AA005D8337 /* FirstViewController.swift */,
-				70AC93851F9788AA005D8337 /* SecondViewController.swift */,
+				70AC93831F9788AA005D8337 /* MatchesViewController.swift */,
+				70AC93851F9788AA005D8337 /* SearchViewController.swift */,
 				70AC93871F9788AA005D8337 /* Main.storyboard */,
 				70AC938A1F9788AA005D8337 /* Assets.xcassets */,
 				70AC938C1F9788AA005D8337 /* LaunchScreen.storyboard */,
@@ -139,9 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70AC93861F9788AA005D8337 /* SecondViewController.swift in Sources */,
+				70AC93861F9788AA005D8337 /* SearchViewController.swift in Sources */,
 				70AC93821F9788AA005D8337 /* AppDelegate.swift in Sources */,
-				70AC93841F9788AA005D8337 /* FirstViewController.swift in Sources */,
+				70AC93841F9788AA005D8337 /* MatchesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,11 +281,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MH4723CB5;
 				INFOPLIST_FILE = CricLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.CricLove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,11 +297,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8MH4723CB5;
 				INFOPLIST_FILE = CricLove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simranjot.CricLove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
